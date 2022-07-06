@@ -1,0 +1,61 @@
+
+const data = [
+    {
+        stock:'Microsoft',
+        date:'1980-12-06',
+        closingPrice:'110'
+    },
+    {
+        stock:'Walmart',
+        date:'1990-02-20',
+        closingPrice:'5600'
+    },
+    {
+        stock:'Adobe',
+        date:'2000-12-06',
+        closingPrice:'130'
+    },
+    {
+        stock:'Adobe',
+        date:'2001-11-10',
+        closingPrice:'200'
+    },
+    {
+        stock:'Adobe',
+        date:'2002-05-05',
+        closingPrice:'120'
+    },
+    {
+        stock:'Amazon',
+        date:'2001-03-10',
+        closingPrice:'140'
+    },
+    {
+        stock:'Flipkart',
+        date:'2002-12-06',
+        closingPrice:'150'
+    },
+    {
+        stock:'Zenskar',
+        date:'2003-12-06',
+        closingPrice:'160'
+    },
+    {
+        stock:'Zomato',
+        date:'2012-12-06',
+        closingPrice:'1200'
+    },
+    {
+        stock:'Swiggy',
+        date:'1920-05-06',
+        closingPrice:'10'
+    },
+    {
+        stock:'Dunzo',
+        date:'2022-01-01',
+        closingPrice:'100'
+    },
+    
+]
+
+export default data

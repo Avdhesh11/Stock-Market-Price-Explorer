@@ -1,0 +1,26 @@
+{
+  "name": "smpe",
+  "version": "1.0.0",
+  "description": "Stock Market Price Explorer",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node backend/server",
+    "server": "nodemon backend/server",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "data:import": "node backend/seeder",
+    "data:destroy": "node backend/seeder -d",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Avdhesh Nath Singh",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "concurrently": "^7.2.2",
+    "nodemon": "^2.0.18"
+  }
+}
