@@ -19,15 +19,23 @@ npm run dev
 # Run backend only
 npm run server
 ```
+### Create database
 
-## Create database
+```
 run api - http://localhost:5000/createdb
+```
 
-## Create table
-use api - http://localhost:5000/createtable
+### Create table
 
-## Import data
-use api - http://localhost:5000/addstocks
+```
+run api - http://localhost:5000/createtable
+```
+
+### Import data
+
+```
+run api - http://localhost:5000/addstocks
+```
 
 
 
