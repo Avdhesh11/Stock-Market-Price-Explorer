@@ -8,7 +8,7 @@ npm run dev
 # Run backend only
 npm run server
 
-# Create database
+Create database
 run api - http://localhost:5000/createdb
 
 # Create table
